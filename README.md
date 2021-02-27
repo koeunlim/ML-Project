@@ -1,5 +1,6 @@
 # Machine Learning - House Prices: Advanced Regression Techniques
-NYCDSA ML project
+NYCDSA ML project <br>
+Koeun Lim (ke.lim.kang@gmail.com) <br>
 
 
 ## Table of Contents
@@ -55,20 +56,20 @@ Product data were gathered from [House Prices: Advanced Regression Techniques](h
 
 Assuming Overall Quality characterizes the “good house”, features that are positively associated with the overall quality and thus adding values to houses are as the following: garage size/type/quality, external quality, kitchen quality, basement size/quality, house age, property/living area size, remodeling year, fireplace.
 
-Categorical features that are positively associated with the overall quality are:
-(1) Garage Type : Attached to the house
-(2) SaleType : New house
-(3) Central Air : Yes
+Categorical features that are positively associated with the overall quality are: <br>
+(1) Garage Type : Attached to the house <br>
+(2) SaleType : New house <br>
+(3) Central Air : Yes <br>
 
-Categorical features that are negatively associated with the overall quality are:
-(1) MSZoning : Medium density residential
-(2) Neighborhood : Oldtown
+Categorical features that are negatively associated with the overall quality are: <br>
+(1) MSZoning : Medium density residential <br>
+(2) Neighborhood : Oldtown <br>
 
 
-Potential upgrades to the house to increase its value (yay remodeling helps!):
-(1) Make/expand garage, preferably attached to the house.
-(2) Replace/upgrade external finish.
-(3) Upgrade kitchen.
-(4) Finish basement if unfinished.
-(5) Add fireplace.
+Potential upgrades to the house to increase its value (yay remodeling helps!): <br>
+(1) Make/expand garage, preferably attached to the house. <br>
+(2) Replace/upgrade external finish. <br>
+(3) Upgrade kitchen. <br>
+(4) Finish basement if unfinished. <br>
+(5) Add fireplace. <br>
 
