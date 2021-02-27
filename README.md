@@ -29,6 +29,9 @@ NYCDSA ML project
 
 ## Project Description
 For this project, the goal task is to employ machine learning techniques to understand what factors contribute to house values.
+<img src="./BlockDiagram.png">
+The xgboost with 28 features (reduced down from 203) yielded train set R2 of 0.97 and test set R2 of 0.91. <br>
+The xgboost with FAMD components yielded train set R2 of 0.98 and test set R2 of 0.89.<br>
 
 
 ## Data Description
@@ -50,4 +53,22 @@ Product data were gathered from [House Prices: Advanced Regression Techniques](h
 
 ## Conclusion
 
+Assuming Overall Quality characterizes the “good house”, features that are positively associated with the overall quality and thus adding values to houses are as the following: garage size/type/quality, external quality, kitchen quality, basement size/quality, house age, property/living area size, remodeling year, fireplace.
+
+Categorical features that are positively associated with the overall quality are:
+(1) Garage Type : Attached to the house
+(2) SaleType : New house
+(3) Central Air : Yes
+
+Categorical features that are negatively associated with the overall quality are:
+(1) MSZoning : Medium density residential
+(2) Neighborhood : Oldtown
+
+
+Potential upgrades to the house to increase its value (yay remodeling helps!):
+(1) Make/expand garage, preferably attached to the house.
+(2) Replace/upgrade external finish.
+(3) Upgrade kitchen.
+(4) Finish basement if unfinished.
+(5) Add fireplace.
 
