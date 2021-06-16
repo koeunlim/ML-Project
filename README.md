@@ -1,5 +1,5 @@
 # Machine Learning - House Prices: Advanced Regression Techniques
-NYCDSA ML project <br>
+Predict house price <br>
 Koeun Lim (ke.lim.kang@gmail.com) <br>
 
 
